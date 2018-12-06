@@ -34,11 +34,12 @@ public class stateArraylist {
     }
 
     public void searchNameCapital (String capital) {
-        for(State state : listState)
-            if(state.getCapital().equalsIgnoreCase(capital))
-                System.out.println(state);
-
-        System.out.println("Data not found");
+        if (listState.size() != 0) {
+            for (State state : listState)
+                if (state.getCapital().equalsIgnoreCase(capital))
+                    System.out.println(state);
+        } else 
+           System.out.println("Data not found");
     }
 
     public void searchByOccupiedSpaceOver(int square) {
