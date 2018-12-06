@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Collections;
-
 public class java8 {
     public static void main(String[] args) {
         State state1 = new State("Ukraine", "KIEV", "Europe", 300000, 32000);
