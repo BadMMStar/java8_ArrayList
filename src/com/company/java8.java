@@ -9,9 +9,7 @@ public class java8 {
         State state5 = new State("Canada", "Ottawa", "North America", 247000000, 3232000);
         State state6 = new State("Australia", "Канберра", "Австралия", 237000000, 332000);
         State state7 = new State("Japan", "Токио", "Asia", 297000000, 932000);
-
-//        System.out.println(state1.show());
-
+        
         stateArraylist myState = new stateArraylist();
 
         myState.addStateList(state1);
